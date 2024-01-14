@@ -20,4 +20,11 @@ body{
     height: 60%;
     padding: 20px;
     text-align: center;
+    cursor: pointer;
+}
+a{
+    border: 1px solid black;
+    width: fit-content;
+    height: 100%;
+    background-color: red;
 }
