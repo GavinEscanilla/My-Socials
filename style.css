@@ -17,8 +17,8 @@ body{
 .Socials{
     border: 1px solid black;
     border-radius: 30px;
-    width: 100%;
-    height: 60%;
+    width: 80%;
+    height: 50%;
     padding: 20px;
     text-align: center;
     cursor: pointer;
@@ -28,4 +28,7 @@ a{
     width: fit-content;
     height: 100%;
     background-color: red;
+}
+.icons{
+    width: 50px;
 }
