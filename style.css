@@ -2,7 +2,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #353935;
+  background-color: white;
 }
 *{
     margin: 20px;
@@ -13,22 +13,49 @@ body{
 }
 #username{
     text-decoration: none;
+    font-family: Inter,Helvetica,Arial,system-ui,-apple-system;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
 }
+
 .Socials{
     border: 1px solid black;
     border-radius: 30px;
-    width: 80%;
-    height: 50%;
+    width: 50%;
+    height: 20%;
     padding: 20px;
     text-align: center;
     cursor: pointer;
 }
-a{
-    border: 1px solid black;
-    width: fit-content;
-    height: 100%;
-    background-color: red;
+#twitch{
+    background-color: #9146FF;
+}
+.fa-twitch{
+    color: black;
+}
+
+#Merch{
+    background-color: #32c3a3 ;
+}
+#Tipping{
+    background-color: #32c3a3 ;
+}
+#youtube{
+    background-color: white;
+}
+#tiktok{
+    background-color: black;
+}
+#cashapp{
+background-color: #08b651;
+}
+.fa-youtube{
+    color:#FF0000 ;
+}
+.fa-tiktok{
+    color: white;
 }
 .icons{
-    width: 50px;
+    font-size: 50px;
+    padding: 0;
 }
