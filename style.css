@@ -2,8 +2,12 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background-image: url('tumblr_67618d4666192739e6dac6b768570053_5164cf3b_640.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 *{
     margin: 20px;
 }
